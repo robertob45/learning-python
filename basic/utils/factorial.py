@@ -5,7 +5,7 @@ def factorial(num):
         num = num - 1
     return fact
 
-
-num = int(input('Ingrese numero: '))
-fact = factorial(num)
-print(fact)
+def app_factorial():
+    num = int(input('Ingresa numero: '))
+    fact = factorial(num)
+    print(fact)

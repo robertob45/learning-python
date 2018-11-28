@@ -1,16 +1,13 @@
+def fib(num):
+    if num == 1 or num == 2:
+        return 1
+    else:
+        return fib(num - 1) + fib(num - 2)
+        
 
-def fibonacci(num):
-    fib = 0
-    fib_2 = 1
-    while fib_2 < num:
-        fib, fib_2 = fib_2, fib + fib_2
-    return fib
+def app_fibonacci():
+    num = int(input('Ingresa número: '))
+    fib_1 = fib(num)
+    print('El numero de fib de', num, 'es:', fib_1)
 
-
-num = int(input('Ingrese número: '))
-fib = fibonacci(num)
-print('El numero de fibonacci de', num, 'es:', fib)
-
-
-    #fib = fib_2
-    #fib_2 = fib + fib_2
+app_fibonacci()

@@ -1,4 +1,3 @@
-
 def palindromo(string):
     string_2 = string.lower()
     string_2 = string.replace(' ', '')
