@@ -3,7 +3,7 @@ from operations.resta import app_resta
 from operations.multiplicacion import app_multip
 from operations.division import app_division
 from utils.factorial import app_factorial
-from utils.fibonacci import app_fibonacci
+from utils.fibonacci import app_fib
 from conditions.igual import app_verif_igual
 from conditions.mayor import app_mayor
 
